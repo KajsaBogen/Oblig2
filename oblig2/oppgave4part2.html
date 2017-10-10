@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title> Oppgave 4 Part 2 </title>
+      <meta charset="UTF-8">
+      <link href="stilark.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="header">
+        <header>
+            <p> Studenten Kajsa på HIØ, OBLIG 2
+              &#84;&#104;&#101;&#32;&#113;&#117;&#105;&#99;&#107;&#32;&#98;&#114;&#111;&#119;&#110;&#32;&#102;&#111;&#120;&#32;&#106;&#117;&#109;&#112;&#115;&#32;&#111;&#118;&#101;&#114;&#32;&#49;&#51;&#32;&#108;&#97;&#122;&#121;&#32;&#100;&#111;&#103;&#115;&#46;
+            </p>
+            <div class="icon-bar">
+                <a class="active" href="oppgave2artikkel.html"><i class="fa fa-home"></i></a>
+            </div>
+        </header>
+      </div>
+      <div class="section">
+      <article>
+          <h1> SVG </h1>
+              <p> SVG står for Scalable Vector Graphics, det er kjent som SVG og brukes i et
+                  XML basert format for å kunne tegne to dimensjonale vektor bilder.
+                  SVG grafikken mister ingenting av kvaliteten hvis de zoomes eller settes en annen størrelse.
+                  Alle elementene og attributtene i SVG kan animeres.</p>
+              <p> Det som er så fint med SVG er at den kan bli laget og forrandret på uavhengig av
+                  hvilken tekst "editor" vi bruker, bildene kan også bli printet ut med høy kvalietet på
+                uansett oppløsning. Hovedkonkurrenten til SVG er Flash.</p>
+      </article>
+    </div>
+    <div class="section1">
+      <article>
+              <h2> SVG eksempel </h2>
+              <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="pink" stroke-width="2" fill="yellow" />
+              </svg>
+      </article>
+    </div>
+    <div class="intro">
+      <article>
+        <h2> Eksempel 2 </h2>
+        <svg width="400" height="400">
+         <defs>
+            <pattern id="pattern1" patternUnits="userSpaceOnUse"
+               x="0" y="0" width="100" height="100"
+               viewBox="0 0 4 4" >
+               <path d="M 0 0 L 3 0 L 1.5 3 z" fill="blue" stroke="green" />
+            </pattern>
+         </defs>
+         <g>
+            <text x="30" y="50" >Mønster med trekanter: </text>
+            <rect x="100" y="100" width="300" height="300" stroke="green"
+            stroke-width="3" fill="url(#pattern1)" />
+         </g>
+      </svg>
+      </article>
+    </div>
+    </div>
+    <footer class="footer">
+      <h3><a class="knapp" href="oppgave3.html"> Om denne siden </a></h3>
+        <p>Copyright @ 2017, Kajsa Bogen </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title> Oppgave 4 Part 1</title>
+      <meta charset="UTF-8">
+      <link href="stilark.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="header">
+        <header>
+            <p> Studenten Kajsa på HIØ, OBLIG 2
+              &#84;&#104;&#101;&#32;&#113;&#117;&#105;&#99;&#107;&#32;&#98;&#114;&#111;&#119;&#110;&#32;&#102;&#111;&#120;&#32;&#106;&#117;&#109;&#112;&#115;&#32;&#111;&#118;&#101;&#114;&#32;&#49;&#51;&#32;&#108;&#97;&#122;&#121;&#32;&#100;&#111;&#103;&#115;&#46;
+            </p>
+            <div class="icon-bar">
+                <a class="active" href="oppgave2artikkel.html"><i class="fa fa-home"></i></a>
+            </div>
+        </header>
+      </div>
+      <div class="section">
+      <article>
+          <h1> MathML </h1>
+              <p> MathML brukes til å legge til rette for bruk og gjenbruk av matematisk og
+                  vitenskapelig innhold på nettet. Det brukes også for andre applikasjoner slik som
+                  for eksempel systemer for algebra på data. MathML kan bli brukt til å kode både en
+                  en presentasjon av matematiske notasjoner for visuelle visninger, og matematisk
+                  innhold, som for applikasjoner der hvor semantikk spiller en vikig rolle. </p>
+      </article>
+    </div>
+    <div class="section1">
+      <article>
+          <h2> I sammenheng med HTML </h2>
+              <p> I all hovedsak gjør MathML at vi får matten in på webbsiden, ikke bare slik at vi
+                  forstår det men at maskinen skjønner det også. Det er mange som bruker snapshots
+                  av forskjellig algebra istedetfor MathMl, fordi med MathMl så er det utrolig mye
+                  mer koding som må til.
+                <br>
+                  MathMl er et lavt level format for å beskrive matematikk fra maskin til maskin.
+              </p>
+      </article>
+    </div>
+    <div class="intro">
+      <article>
+          <h1> Eksempler med MathML </h1>
+              <p> Det første jeg vil vise er dette eksempelet med ligningen: x2 + 4x + 4 =0
+                  Det er to måter å representere dette på, første med presentional tags og andre
+                  med semantic tags. Men vi har også content MathML.
+              </p>
+              <p> Dette er med presentional tags, eksemplet ligger som
+                  kommentar i dokumentet.
+            <!--
+              <math>
+                <semantics>
+                  <mrow>
+                    <mrow>
+                      <msup> <mi>x</mi> <mn>2</mn> </msup> <mo>+</mo>
+                        <mrow>
+                          <mn>4</mn>
+                          <mo>&InvisibleTimes;</mo>
+                          <mi>x</mi>
+                        </mrow>
+                      <mo>+</mo>
+                      <mn>4</mn>
+                    </mrow>
+                      <mo>=</mo>
+                      <mn>0</mn>
+                    </mrow>
+              </p>
+            </semantics>
+          </math>
+            -->
+          </p>
+        </article>
+      </div>
+      <div class="article1">
+        <article>
+          <h2> Eksempel </h2>
+          <p> Dette er med "semantic tags":
+        <!--
+          <math>
+            <semantics>
+                  <apply>
+                    <eq/>
+                      <apply>
+                        <plus/>
+                        <apply>
+                          <power/>
+                          <ci>x</ci>
+                          <cn>2</cn>
+                        </apply>
+                      <apply>
+                        <times/>
+                        <cn>4</cn>
+                        <ci>x</ci>
+                      </apply>
+                    <cn>4</cn>
+                  </apply>
+                <cn>0</cn>
+              </apply>
+        </semantics>
+      </math>
+    -->
+      <img src="semantics.jpg" alt="semantikk" style="width:300px; height:400px;">
+      </p>
+    </article>
+  </div>
+  <div class="article2">
+    <article>
+      <h2> Eksempel </h2>
+      <p> Viser Presentation MathML gjennom print screen,
+          det er lagt i kommentar på dokumentet:
+      <!--
+      <math>
+        <semantics>
+              <mrow>
+                  <mi>E</mi>
+                  <mo>=</mo>
+                  <mi>m</mi>
+                <msup>
+                  <mi>c</mi>
+                  <mn>2</mn>
+                </msup>
+              </mrow>
+        </semantics>
+      </math>
+    -->
+      <img src="presentation.jpg" alt="presentasjon" style="width:250px; height:300px;">
+      </p>
+    </article>
+  </div>
+  <div class="article3">
+    <article>
+      <h2> Eksempel </h2>
+      <p> Viser Content MathML gjennom print screen,
+          det er lagt i kommentar på dokumentet:
+    <!--
+      <math>
+        <semantics>
+              <annotation-xml encoding="MathML-Content">
+		              <apply>
+			                 <eq />
+			                 <ci>E</ci>
+			                 <apply>
+				                  <times/>
+				                  <ci>m</ci>
+				                  <apply>
+					                   <power/>
+					                   <ci>c</ci>
+					                   <cn>2</cn>
+				                  </apply>
+			                </apply>
+		              </apply>
+              </annotation-xml>
+        </semantics>
+      </math>
+    -->
+      <img src="content.jpg" alt="innhold" style="width:300px; height:300px;">
+      </p>
+    </article>
+  </div>
+</div>
+    <footer class="footer">
+      <h3><a class="knapp" href="oppgave3.html"> Om denne siden </a></h3>
+        <p>Copyright @ 2017, Kajsa Bogen </p>
+    </footer>
+
+  </body>
+
+</html>
